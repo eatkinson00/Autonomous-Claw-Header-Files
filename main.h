@@ -1,5 +1,5 @@
-#ifndef AUTONOMOUS_CLAW_H
-#define AUTONOMOUS_CLAW
+#ifndef MAIN_H
+#define MAIN
 
 #define steps_per_rev   20
 #define xPin1   22
