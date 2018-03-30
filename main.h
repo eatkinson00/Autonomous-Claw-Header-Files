@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN
 
+#include <Stepper.h>
+#include <Servo.h>
+
 #define steps_per_rev   20
 #define xPin1   22
 #define xPin2   24
