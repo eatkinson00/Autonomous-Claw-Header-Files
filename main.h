@@ -57,7 +57,7 @@
 #define recoil_claw -75
 
 
-/* Grasp definitions */
+/* claw_open_close definitions */
 #define open_angle  180
 #define close_angle 0
 
