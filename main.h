@@ -51,7 +51,6 @@
 
 
 /* Claw ISR definitions */
-
 #define grab_value  9
 #define extend_claw  75
 #define recoil_claw -75
