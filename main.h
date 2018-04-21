@@ -2,7 +2,7 @@
 #define MAIN
 
 
-#include <AccelStepper.h>
+#include <Stepper.h>
 #include <Servo.h>
 
 
