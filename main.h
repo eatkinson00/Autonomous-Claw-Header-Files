@@ -2,7 +2,7 @@
 #define MAIN
 
 
-#include <Stepper.h>
+#include <AccelStepper.h>
 #include <Servo.h>
 
 
@@ -23,19 +23,19 @@
 /* x_stepper pins */
 #define xPin1   22
 #define xPin2   24
-#define xPin3   26
+#define xEnable   26
 
 
 /* y_stepper pins */
 #define yPin1   30
 #define yPin2   32
-#define yPin3   34
+#define yEnable   34
 
 
 /* z_stepper pins */
 #define zPin1   38
 #define zPin2   40
-#define zPin3   42
+#define zEnable   42
 
 
 /* Stepper definitions */
