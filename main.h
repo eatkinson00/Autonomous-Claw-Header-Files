@@ -12,52 +12,47 @@
 
 
 /* microswitch pins */
-#define x_switch	45	
-#define y_switch 	46
+#define x_switch	31	
+#define y_switch 	30
 
 
 /* servo pin */
-#define servo_power	4
+#define servo_power	8
 
 
 /* x_stepper pins */
-#define xPin1   22
-#define xPin2   24
-#define xEnable   26
+#define xStep   7
+#define xDir   6
 
 
 /* y_stepper pins */
-#define yPin1   30
-#define yPin2   32
-#define yEnable   34
+#define yStep   5
+#define yDir   4
 
 
 /* z_stepper pins */
-#define zPin1   38
-#define zPin2   40
-#define zEnable   42
+#define zStep   3
+#define zDir   2
 
 
 /* Stepper definitions */
 #define steps_per_rev   200
 #define stepper_rpm 60
-#define stepper_rpm_cal 90
+#define stepper_rpm_cal 60
 #define stepper_rpm_z 90
-#define pos_x_sweep 100
-#define neg_x_sweep -100
-#define pos_y_step  25
-#define neg_y_step  -25
+#define x_sweep 1200
+#define y_step  100
 #define total_y_steps 8
 
 
 /* Claw ISR definitions */
-#define grab_value  9
+#define target_dist  9
 #define extend_claw  75
 #define recoil_claw -75
 
 
 /* claw_open_close definitions */
-#define open_angle  180
+#define open_angle  120
 #define close_angle 0
 
 
