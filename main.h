@@ -1,10 +1,7 @@
 #ifndef MAIN_H
 #define MAIN
 
-
-#include <Stepper.h>
 #include <Servo.h>
-
 
 /* ultrasonic sensor */
 #define trig_pin  11
@@ -38,14 +35,14 @@
 
 /* Stepper definitions */
 #define steps_per_rev   200
-#define SpeedX  2000
-#define SpeedY  2000
-#define SpeedZ  2000
+#define SpeedX  2800
+#define SpeedY  2800
+#define SpeedZ  2800
 #define total_y_steps 10
 
 
 /* Claw ISR definitions */
-#define target_dist  17
+#define target_dist  10
 #define drop_claw 600;
 
 
