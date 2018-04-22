@@ -6,13 +6,14 @@
 #include <Servo.h>
 
 
-/* ultrasonic sensor pin */
+/* ultrasonic sensor */
 #define trig_pin  11
 #define echo_pin  10
-
+#define filer_size  200
 
 /* microswitch pins */
-#define x_switch	31	
+#define pos_x_switch	31	
+#define neg_x_switch  32
 #define y_switch 	30
 
 
@@ -21,13 +22,13 @@
 
 
 /* x_stepper pins */
-#define xStep   7
-#define xDir   6
+#define xStep   5
+#define xDir   4
 
 
 /* y_stepper pins */
-#define yStep   5
-#define yDir   4
+#define yStep   7
+#define yDir   6
 
 
 /* z_stepper pins */
@@ -37,23 +38,16 @@
 
 /* Stepper definitions */
 #define steps_per_rev   200
-#define stepper_rpm 60
-#define stepper_rpm_cal 60
-#define stepper_rpm_z 90
-#define x_sweep 1200
-#define y_step  100
-#define total_y_steps 8
+#define SpeedX  2000
+#define SpeedY  2000
+#define SpeedZ  2000
+#define total_y_steps 10
 
 
 /* Claw ISR definitions */
-#define target_dist  9
-#define extend_claw  75
-#define recoil_claw -75
+#define target_dist  17
+#define drop_claw 600;
 
-
-/* claw_open_close definitions */
-#define open_angle  120
-#define close_angle 0
 
 
 
